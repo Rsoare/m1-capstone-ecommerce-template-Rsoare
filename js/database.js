@@ -59,7 +59,7 @@ const data = [
     id: 7,
     img: "../img/download-game-4.jpeg",
     nameItem: "Pokémon Legends: Arceus",
-    description:"Prepare-se para uma nova grande aventura Pokémon em Pokémon™ Legends: Arceus, um jogo totalmente novo da Game Freak ...",
+    description:"Prepare-se para uma nova grande aventura Pokémon em Pokémon Legends: Arceus, um jogo totalmente novo da Game Freak ...",
     value: 299.00,
     addCart: "Adicionar ao carrinho",
     tag: ["Nintendo"],
