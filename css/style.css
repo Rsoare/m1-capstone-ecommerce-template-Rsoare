@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+.conteiner-header{
+    width: 100%;
+    height: 80px;
+    -webkit-box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.13);
+    box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.13);
+}
+.header-edit{
+    display: flex;
+    max-width: 1380px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 28px;
+    color: #333333;
+    font-weight: bold;
+}
+.nav-conteiner{
+    height: 100%;
+    width: 35%;
+}
+.nav-edit{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 45px;
+}
+.tag-nav{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bolder;
+}
+.tag-nav0{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+.tag-nav:hover, .tag-nav0:hover{
+color:  blue;
+}
+.conteiner-main{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-edit{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.section-produtos{
+    display: flex;
+    width:100%;
+    max-width: 990px;
+}
+.list-produtos{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    overflow-y:auto;
+}
+.produtos{
+    display: flex;
+    height: 380px;
+    width: 300px;
+    flex-direction: column;
+    border: solid 2px #F5F5F5;
+    gap: 15px;
+}
+.imagem{
+    height: 120px;
+    width: 295px;
+    object-fit: cover;
+}
+.tag{
+    height: 24px;
+    width: 120px;
+    background-color: #2E245E;
+    color: #F5F5F5;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+}
+.name-item{
+    color: #333333;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.description{
+    color:#333333;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 23px;
+}
+.value{
+    color: #37268C;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.addCart{
+    color: #333333;
+    font-size: 16px;
+    border: none;
+    background: none;
+    width: 170px;
+    margin: 0px;
+}
+.section-carrinho{
+    display: flex;
+    height: 651px;
+    width: 355px;
+    flex-direction: column;
+}
+.imagem-carrinho{
+    height: 100px;
+    width: 100px;
+}
+.perquisa-produto{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.barra-pesquisa{
+    height: 40px;
+    width: 258px;
+    padding-left: 10px;
+    border: none;
+    background: #8282822c;
+    font-size: 17px;
+    color: #333333;
+}
+.botao-perquisa{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background: #37268C;
+    color: white;
+    font-size: 14px;
+}
+.titulo-carrinho{
+    display: flex;
+    height: 45px;
+    background: #37268C;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.lista-carrinho{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #8282822c;
+    gap: 20px;
+    padding-top: 30px;
+}
+.produto-carrinho{
+    display: flex;
+    min-height: 110px;
+    width: 95%;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+}
+.descricao-carrinho{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.imagem-carrinho{
+    height: 100px;
+    width: 120px;
+    object-fit: cover;
+}
+.name-item-carrinho{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+.preco-carrinho{
+    font-size: 16px;
+    color: #37268C;
+    font-weight: bold;
+}
+.botao-carrinho{
+    border: none;
+    background: none;
+    color: #333333;
+    font-size: 14px;
+    padding: 0;
+}
+.total-produtos{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background:#333333 ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: 18px;
+}
