@@ -68,7 +68,6 @@ function addCarrinho() {
         botao.addEventListener('click', function (evento) {
             let botaoId = evento.target.id
             let id = parseInt(botaoId.substring(4))
-            if (carrinhoDuplicado(id) == false) {
                 somaProdutos++
                 let produto = encontarCard(data, id)
                 let produtoCarrinho = criarCardcarrinho(produto)
@@ -76,7 +75,6 @@ function addCarrinho() {
                 somapreco += produto.value
                 somaPreco()
                 somaQuantidade()
-            }
         })
     }
 }
@@ -135,16 +133,6 @@ function removerCarrinho(botao, produto) {
         somaPreco()
         somaQuantidade()
     })
-}
-
-function carrinhoDuplicado(id) {
-    let elemento = document.querySelector("#carrinhoLi" + id)
-    if (elemento == null) {
-        return false
-    }
-    else {
-        return true
-    }
 }
 
 function somaPreco() {
