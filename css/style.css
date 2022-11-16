@@ -27,6 +27,7 @@ body {
     font-size: 28px;
     color: #333333;
     font-weight: bold;
+    color: rgb(9, 139, 9);
 }
 
 .nav-conteiner {
@@ -57,7 +58,7 @@ body {
 
 .tag-nav:hover,
 .tag-nav0:hover {
-    color: blue;
+    color: #0524ef;
 }
 
 .conteiner-main {
@@ -100,7 +101,7 @@ body {
 }
 
 .produtos:hover {
-    border: solid 2px #2E245E;
+    border: solid 2px #0524ef;
     transition: 1s;
     opacity: 0.8;
 }
@@ -115,7 +116,7 @@ body {
 .tag {
     height: 24px;
     width: 120px;
-    background-color: #2E245E;
+    background-color: rgb(201, 44, 44);
     color: #F5F5F5;
     font-size: 18px;
     text-align: center;
@@ -137,7 +138,7 @@ body {
 }
 
 .value {
-    color: #37268C;
+    color: #0524ef;
     font-weight: bold;
     font-size: 16px;
     margin-left: 10px;
@@ -153,10 +154,11 @@ body {
 }
 
 .addCart:hover {
-    background-color: #37268C;
+    background-color: #0524ef;
     color: white;
     border-radius: 5px;
     margin-left: 3px;
+    cursor: pointer;
 }
 
 .section-carrinho {
@@ -194,7 +196,7 @@ body {
     height: 40px;
     width: 80px;
     border: none;
-    background: #37268C;
+    background: rgb(9, 139, 9);
     color: white;
     font-size: 14px;
 }
@@ -202,7 +204,7 @@ body {
 .titulo-carrinho {
     display: flex;
     height: 45px;
-    background: #37268C;
+    background: rgb(9, 139, 9);
     width: 100%;
     color: white;
     align-items: center;
@@ -230,7 +232,7 @@ body {
 }
 
 .produto-carrinho:hover {
-    border: solid 2px #2E245E;
+    border: solid 2px #0524ef;
     background-color: #F5F5F5;
     border-radius: 3px;
 }
@@ -256,7 +258,7 @@ body {
 
 .preco-carrinho {
     font-size: 16px;
-    color: #37268C;
+    color: #0524ef;
     font-weight: bold;
 }
 
@@ -269,11 +271,12 @@ body {
 }
 
 .botao-carrinho:hover {
-    background-color: #37268C;
+    background-color: #0524ef;
     color: white;
     border-radius: 3px;
     height: 20px;
     width: 110px;
+    cursor: pointer;
 }
 
 .total-produtos {
@@ -281,7 +284,7 @@ body {
     width: 100%;
     height: 70px;
     color: white;
-    background: #333333;
+    background: #0524ef;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
